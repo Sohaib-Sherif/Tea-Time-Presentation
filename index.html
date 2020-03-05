@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Tea Time</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -25,8 +25,67 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-iframe="http://localhost:8080" data-background-interactive data-background-color="white">
+				</section>
+				<section>
+					<h2 style="text-align: left;">Table of Contents:</h2>
+					<ul>
+						<li>What is Programming and Who are Programmers?</li>
+						<li>Fields of Programming</li>
+						<li>How to learn Programming (Our personal experience)</li>
+						<li>Entrepreneurship and Programming (Match made in heaven)</li>
+					</ul>
+				</section>
+				<section data-background-color="royalBlue">
+
+					<section>
+						What is Programming and Who are Programmers?
+					</section>
+
+					<section data-background-image="https://media.giphy.com/media/kgEeS3motMqpW/giphy.gif"></section>
+					<section data-background-image="https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif"></section>
+
+
+				</section>
+				<section data-background-color="#D9BA41">Fields of Programming</section>
+				<section data-background-color="#86A09E">How to learn Programming (Our personal experience)</section>
+				<section data-background-color="#7D001A">
+					<section>Entrepreneurship and Programming (Match made in heaven)</section>
+					<section>
+					<div style="display: flex; flex-direction: row; justify-content: space-around;">
+						<img src="..\assets\Bolt.png" height="400" width="400">
+						<img src="..\assets\markus.webp" height="400" width="400">
+					</div>
+					</section>
+
+					<section>
+						<div style="display: flex; flex-direction: row; justify-content: space-around;">
+							<img src="..\assets\images.png" style="height: 400px; width: 400px;">
+						</div>
+						</section>
+
+						<section>
+							<div style="display: flex; flex-direction: row; justify-content: space-around;">
+								<img src="..\assets\Postmates-Logo_FOD-1080x675.jpg" height="400" width="400">
+								<img src="..\assets\105549431-1541175991430lehmann_bastian.jpg" height="400" width="400">
+							</div>
+							</section>
+
+							<section>
+								<div style="display: flex; flex-direction: row; justify-content: space-around;">
+									<img src="..\assets\postmates-vs-amazon.jpg" style="height: 600px; width: 600px;">
+								</div>
+								</section>
+
+								<section>
+									<div style="display: flex; flex-direction: row; justify-content: space-around;">
+										<img src="..\assets\Elizabeth_Holmes_2014_(cropped).jpg" height="400" width="400">
+										<img src="..\assets\Aaron-Swartz.jpg" height="400" width="400">
+									</div>
+									</section>
+							
+				</section>
+
 			</div>
 		</div>
 
@@ -37,6 +96,9 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
